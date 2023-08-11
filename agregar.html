@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alurageek-Agregar Producto</title>
+    <link rel="stylesheet" href="css/normalice.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/agregar.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/inputs.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html">
+                <img class="header__logo" src="img/Logo.svg" alt="Logo">
+            </a>
+        </div>
+    </header>
+    <main class="main main__loggin">
+        <div class="agregar">
+            <h2 class="loggin__titulo">Agregar Producto</h2>
+            <form class="agregar__form" data-addForm>
+
+                <div class="input-container ">
+                    <input 
+                        name="url" 
+                        id="url" 
+                        class="agregar input inputs" 
+                        type="url" 
+                        placeholder="URL de la imagen" 
+                        required data-tipo="url"
+                        data-url>
+                    <label 
+                        class="input-label" 
+                        for="url">
+                            URL de la imagen
+                    </label>
+                    <span class="input-message-error">
+                        Este campo no es valido
+                    </span>
+                </div>
+
+                <div class="input-container ">
+                    <select class="agregar input inputs" name="categoria" id="categoria" data-categoria data-tipo="categoria" required>
+                        <option disabled selected value="">Seleccionar Categoria</option>
+                        <option value="playeras">Playeras</option>
+                        <option value="laptops">Laptops</option>
+                        <option value="nfts">NFTs</option>
+                    </select>
+                    <label 
+                        class="input-label" 
+                        for="categoria">
+                            Seleccione categoria
+                    </label>
+                    <span class="input-message-error">
+                        Este campo no es valido
+                    </span>
+                </div>
+
+                <div class="input-container ">
+                    <input 
+                        name="name" 
+                        id="name" 
+                        class="agregar input inputs" 
+                        type="text" 
+                        placeholder="Nombre del producto" 
+                        required data-tipo="name"
+                        data-nombre>
+                    <label 
+                        class="input-label" 
+                        for="name">
+                            Nombre del producto
+                    </label>
+                    <span class="input-message-error">
+                        Este campo no es valido
+                    </span>
+                </div>
+
+                <div class="input-container ">
+                    <input 
+                        name="precio" 
+                        id="precio" 
+                        class="agregar input inputs" 
+                        type="number" 
+                        placeholder="Precio del producto" 
+                        required data-tipo="precio"
+                        data-precio>
+                    <label 
+                        class="input-label" 
+                        for="precio">
+                            Precio del producto
+                    </label>
+                    <span class="input-message-error">
+                        Este campo no es valido
+                    </span>
+                </div>
+
+                <div class="input-container ">
+                    <textarea 
+                        name="descripcion" 
+                        id="descripcion" 
+                        class="agregar input inputs input__mensaje" 
+                        type="text" 
+                        cols="30" rows="10"
+                        minlength="10"
+                        placeholder="Descripcion del producto" 
+                        required data-tipo="descripcion"
+                        data-descripcion></textarea>
+                    <label 
+                        class="input-label" 
+                        for="precio">
+                            Describe tu producto
+                    </label>
+                    <span class="input-message-error">
+                        Este campo no es valido
+                    </span>
+                </div>
+                
+                <a href="index.html">
+                    <input class="boton agregar__boton" type="submit" value="Agregar producto">
+                </a>
+                
+            </form>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="contacto">
+            <div class="contacto__container">
+                <div class="contacto__logo">
+                    <a href="index.html">
+                        <img 
+                        class="header__logo" 
+                        src="img/Logo.svg" 
+                        alt="Logo">
+                    </a>
+                </div>
+                <div class="contacto__links">
+                    <a href="nosotros.html">Quienes somos</a>
+                    <a href="#">Politica de privacidad</a>
+                    <a href="#">Programa de fidelidad</a>
+                    <a href="#">Nuestras Tiendas</a>
+                    <a href="#">Quiero ser franquiciado</a>
+                    <a href="agregar.html">Anúncie aquí</a>
+                </div>
+            </div>
+
+            <form class="contacto__contacto--inputs">
+
+                <div class="input-container ">
+                    <input 
+                        name="name" 
+                        id="name" 
+                        class="input" 
+                        type="text" 
+                        placeholder="Nombre" 
+                        required data-tipo="nombre" 
+                        pattern="[\s\S]{7,40}">
+                    <label 
+                        class="input-label" 
+                        for="name">
+                            Nombre
+                    </label>
+                    <span class="input-message-error">
+                        Este campo no es valido
+                    </span>
+                </div>
+
+                <div class="input-container">
+                    <textarea 
+                        name="text" 
+                        id="mensaje" 
+                        class="input input__mensaje" 
+                        type="text" 
+                        cols="30" rows="10"
+                        placeholder="Escribe tu mensaje" 
+                        required 
+                        data-tipo="mensaje" 
+                        minlength="10"
+                        maxlength="120"
+                        pattern="[\s\S]{10,120}"></textarea>
+                    <label 
+                        class="input-label" 
+                        for="mensaje">
+                            Tu mensaje
+                    </label>
+                    <span class="input-message-error">
+                        Este campo no es valido
+                    </span>
+                </div>
+
+                <input  
+                    class="contacto__boton" 
+                    type="submit">
+                        Enviar mensaje
+                </input>
+
+            </form> 
+
+        </div>
+    </div>
+
+    <div class="rodapie">
+        <p class="rodapie__texto">
+            AluraGeek - Todos los derechos Reservados 2023.
+        </p>
+    </div>
+
+</footer>
+<script type="module" src="js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</script>
+<script type="module" src="controllers/crearProductoController.js"></script>
+</body>
+</html>
+        

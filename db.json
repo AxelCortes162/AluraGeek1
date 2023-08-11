@@ -1,0 +1,280 @@
+{
+  "playeras": [
+    {
+      "nombre": "VueJs",
+      "imagenURL": "img/1.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 1
+    },
+    {
+      "nombre": "AngularJs",
+      "imagenURL": "img/2.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2
+    },
+    {
+      "nombre": "ReactJs",
+      "imagenURL": "img/3.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3
+    },
+    {
+      "nombre": "ReduxJs",
+      "imagenURL": "img/4.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 4
+    },
+    {
+      "nombre": "NodeJs",
+      "imagenURL": "img/5.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 5
+    },
+    {
+      "nombre": "SAASJs",
+      "imagenURL": "img/6.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 6
+    },
+    {
+      "nombre": "HTML5",
+      "imagenURL": "img/7.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 7
+    },
+    {
+      "nombre": "GITHUB",
+      "imagenURL": "img/8.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 8
+    },
+    {
+      "nombre": "BULMACSS",
+      "imagenURL": "img/9.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 9
+    },
+    {
+      "nombre": "TYPESCRIPT",
+      "imagenURL": "img/10.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 10
+    },
+    {
+      "nombre": "DRUPAL",
+      "imagenURL": "img/11.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 11
+    },
+    {
+      "nombre": "JAVASCRIPT",
+      "imagenURL": "img/12.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 12
+    },
+    {
+      "nombre": "GRAPHQL",
+      "imagenURL": "img/13.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 13
+    },
+    {
+      "nombre": "WORDPRESS",
+      "imagenURL": "img/14.jpg",
+      "price": "25",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 14
+    }
+  ],
+  "laptops": [
+    {
+      "nombre": "ThinkPad X1 Carbon",
+      "imagenURL": "img/laptops/1_20230711_221413_0000.png",
+      "price": "29,875",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.1
+    },
+    {
+      "nombre": "Slim 7i",
+      "imagenURL": "img/laptops/2_20230711_221413_0001.png",
+      "price": "51,014",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.2
+    },
+    {
+      "nombre": "ideapad 3i",
+      "imagenURL": "img/laptops/3.jpeg",
+      "price": "14,000",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.3
+    },
+    {
+      "nombre": "ThinkPad P16s",
+      "imagenURL": "img/laptops/4_20230711_222907_0000.png",
+      "price": "55,546",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.4
+    },
+    {
+      "nombre": "ThinkPad t14",
+      "imagenURL": "img/laptops/5_20230711_222908_0001.png",
+      "price": "24,000",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.5
+    },
+    {
+      "nombre": "ThinkPad t14s",
+      "imagenURL": "img/laptops/6_20230711_222908_0002.png",
+      "price": "20,000",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.6
+    },
+    {
+      "nombre": "ideapad 3",
+      "imagenURL": "img/laptops/7_20230711_222908_0003.png",
+      "price": "21,000",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.7
+    },
+    {
+      "nombre": "ThinkPad e14",
+      "imagenURL": "img/laptops/8_20230711_222908_0004.png",
+      "price": "17,699",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.8
+    },
+    {
+      "nombre": "ThinkPad l15",
+      "imagenURL": "img/laptops/9_20230711_222908_0005.png",
+      "price": "17,799",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.9
+    },
+    {
+      "nombre": "ThinkPad p1",
+      "imagenURL": "img/laptops/10_20230711_222908_0006.png",
+      "price": "55,999",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.11
+    },
+    {
+      "nombre": "ThinkPad p16",
+      "imagenURL": "img/laptops/11_20230711_222908_0007.png",
+      "price": "37,585",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 2.12
+    } 
+  ],
+  "nfts": [
+    {
+      "nombre": "hen",
+      "imagenURL": "img/nfts/20230712_000705_0000.png",
+      "price": "100",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.1
+    },
+    {
+      "nombre": "dogball",
+      "imagenURL": "img/nfts/20230712_000705_0001.png",
+      "price": "80",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.2
+    },
+    {
+      "nombre": "blackcat",
+      "imagenURL": "img/nfts/20230712_000705_0002.png",
+      "price": "1000",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.3
+    },
+    {
+      "nombre": "city",
+      "imagenURL": "img/nfts/20230712_000705_0003.png",
+      "price": "150",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.4
+    },
+    {
+      "nombre": "eye",
+      "imagenURL": "img/nfts/20230712_000705_0004.png",
+      "price": "200",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.5
+    },
+    {
+      "nombre": "flower",
+      "imagenURL": "img/nfts/20230712_000705_0005.png",
+      "price": "250",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.6
+    },
+    {
+      "nombre": "still life",
+      "imagenURL": "img/nfts/20230712_000705_0006.png",
+      "price": "100",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.7
+    },
+    {
+      "nombre": "pigs",
+      "imagenURL": "img/nfts/20230712_000705_0007.png",
+      "price": "700",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.8
+    },
+    {
+      "nombre": "doggy",
+      "imagenURL": "img/nfts/20230712_000705_0008.png",
+      "price": "100",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.9
+    },
+    {
+      "nombre": "sheep",
+      "imagenURL": "img/nfts/20230712_000705_0009.png",
+      "price": "200",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.1
+    },
+    {
+      "nombre": "carged hen",
+      "imagenURL": "img/nfts/20230712_000705_0010.png",
+      "price": "250",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.11
+    },
+    {
+      "nombre": "eyescat",
+      "imagenURL": "img/nfts/20230712_000705_0011.png",
+      "price": "900",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.12
+    },
+    {
+      "nombre": "dandelion",
+      "imagenURL": "img/nfts/20230712_002634_0000.png",
+      "price": "150",
+      "descripcion": "Lorem insup bla vla vla y mas vla val val",
+      "id": 3.13
+    }
+  ],
+  "perfil": [
+    {
+      "email": "alura@alura.com",
+      "contraseña":"162Alura."
+    }
+  ]
+}
